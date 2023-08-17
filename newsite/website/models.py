@@ -1,9 +1,6 @@
 from ckeditor.fields import RichTextField
 from django.db import models
 
-import ckeditor
-
-
 
 # Create your models here.
 class Contact(models.Model):

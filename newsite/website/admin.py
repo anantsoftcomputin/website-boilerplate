@@ -1,5 +1,5 @@
 from django.contrib import admin
-import ckeditor
+
 from .models import Contact, Service, Client, Testimonial, Team, Portfolio
 
 

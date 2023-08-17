@@ -1,6 +1,8 @@
 from django.contrib import admin
-from .models import Interaction
+
 from .api import chat_with_gpt3
+from .models import Interaction
+
 
 class InteractionAdmin(admin.ModelAdmin):
     actions = ['get_bot_response']
